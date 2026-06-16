@@ -4,7 +4,7 @@
   "scripts": {
     "build": "dotenv -- turbo build",
     "dev": "dotenv -- turbo dev",
-    "dev:db": "docker compose up -d",
+    "dp:up": "docker compose up -d",
     "db:generate": "dotenv -- turbo db:generate",
     "db:migrate": "dotenv -- turbo db:migrate",
     "lint": "turbo run lint",
